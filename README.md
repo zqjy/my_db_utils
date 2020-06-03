@@ -1,2 +1,28 @@
 # my_db_utils
 数据库连接工具
+# MySqlDBClass
+- 对pymysql进行封装
+## 功能
+- sql生成
+  - 增
+    - get_insert
+  - 删
+    - get_delete
+  - 改
+    - get_update
+  - 查
+    - get_select
+- sql执行
+  - 增
+    - insert
+  - 删
+    - delete
+  - 改
+    - update
+  - 查
+    - select
+    - select_by_dict
+    - select_count
+    - select_yield
+- sql执行缓存
+- sql执行数量统计
