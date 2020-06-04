@@ -22,7 +22,14 @@
   - 查
     - select
     - select_by_dict
+      - 根据字典查询
     - select_count
+      - 数量查询
     - select_yield
+      - 查询返回迭代器
+    - select_table_info
+      - 查询表字段详细信息
+    - desc_table
+      - 查询表结构
 - sql执行缓存
 - sql执行数量统计
